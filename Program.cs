@@ -19,11 +19,9 @@ namespace ConsoleAppViagem
             Console.WriteLine("Qauntos km o veículo faz com um litro de combustível: ");
             int rend = int.Parse(Console.ReadLine());  
 
-            int consumo = dist / rend;
+            double consumo = (dist / rend) * valor;
 
-            double resultado = consumo * valor;
-
-            Console.WriteLine("O valor gasto na viagem será de: " + resultado);
+            Console.WriteLine("O valor gasto na viagem será de: " + consumo);
 
             Console.ReadKey();
 
