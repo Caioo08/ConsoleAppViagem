@@ -14,10 +14,10 @@ namespace ConsoleAppViagem
             double valor = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Qual será a distância percorrida em km: ");
-            int dist = int.Parse(Console.ReadLine());
+            double dist = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Qauntos km o veículo faz com um litro de combustível: ");
-            int rend = int.Parse(Console.ReadLine());  
+            double rend = double.Parse(Console.ReadLine());  
 
             double consumo = (dist / rend) * valor;
 
